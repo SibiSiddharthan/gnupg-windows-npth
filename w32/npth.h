@@ -37,15 +37,8 @@ extern "C" {
 
 struct msghdr;
 
-/* The mingw-w64 headers define timespec.  For older compilers we keep
-   our replacement.  */
-#ifndef __MINGW64_VERSION_MAJOR
-struct timespec {
-  long tv_sec;                 /* seconds */
-  long tv_nsec;                /* nanoseconds */
-};
-#endif /*__MINGW64_VERSION_MAJOR */
-
+typedef int pid_t;
+typedef long long ssize_t;
 
 #ifndef ETIMEDOUT
 #define ETIMEDOUT 10060  /* This is WSAETIMEDOUT.  */
