@@ -1,0 +1,110 @@
+/* Define to 1 if you have the `gettimeofday' function. */
+#cmakedefine HAVE_GETTIMEOFDAY @HAVE_GETTIMEOFDAY@
+
+/* Define to 1 if you have the `pselect' function. */
+#cmakedefine HAVE_PSELECT @HAVE_PSELECT@
+
+/* Define to 1 if you have the `pthread_atfork' function. */
+#cmakedefine HAVE_PTHREAD_ATFORK @HAVE_PTHREAD_ATFORK@
+
+/* Define to 1 if you have the `pthread_getname_np' function. */
+#cmakedefine HAVE_PTHREAD_GETNAME_NP @HAVE_PTHREAD_GETNAME_NP@
+
+/* Define to 1 if you have the `pthread_mutex_timedlock' function. */
+#cmakedefine HAVE_PTHREAD_MUTEX_TIMEDLOCK @HAVE_PTHREAD_MUTEX_TIMEDLOCK@
+
+/* Define to 1 if you have the `pthread_rwlock_rdlock' function. */
+#cmakedefine HAVE_PTHREAD_RWLOCK_RDLOCK @HAVE_PTHREAD_RWLOCK_RDLOCK@
+
+/* Define to 1 if you have the `pthread_rwlock_timedrdlock' function. */
+#cmakedefine HAVE_PTHREAD_RWLOCK_TIMEDRDLOCK @HAVE_PTHREAD_RWLOCK_TIMEDRDLOCK@
+
+/* Define to 1 if you have the `pthread_rwlock_timedwrlock' function. */
+#cmakedefine HAVE_PTHREAD_RWLOCK_TIMEDWRLOCK @HAVE_PTHREAD_RWLOCK_TIMEDWRLOCK@
+
+/* Define to 1 if you have the `pthread_rwlock_tryrdlock' function. */
+#cmakedefine HAVE_PTHREAD_RWLOCK_TRYRDLOCK @HAVE_PTHREAD_RWLOCK_TRYRDLOCK@
+
+/* Define to 1 if you have the `pthread_rwlock_trywrlock' function. */
+#cmakedefine HAVE_PTHREAD_RWLOCK_TRYWRLOCK @HAVE_PTHREAD_RWLOCK_TRYWRLOCK@
+
+/* Define to 1 if you have the `pthread_rwlock_wrlock' function. */
+#cmakedefine HAVE_PTHREAD_RWLOCK_WRLOCK @HAVE_PTHREAD_RWLOCK_WRLOCK@
+
+/* Define to 1 if you have the `pthread_setname_np' function. */
+#cmakedefine HAVE_PTHREAD_SETNAME_NP @HAVE_PTHREAD_SETNAME_NP@
+
+/* Define to 1 if you have the `pthread_tryjoin_np' function. */
+#cmakedefine HAVE_PTHREAD_TRYJOIN_NP @HAVE_PTHREAD_TRYJOIN_NP@
+
+/* Define to 1 if you have the <unistd.h> header file. */
+#cmakedefine HAVE_UNISTD_H @HAVE_UNISTD_H@
+
+/* Defined if we run on any kind of W32 API based system */
+#cmakedefine HAVE_W32_SYSTEM @HAVE_W32_SYSTEM@
+
+/* Defined if we run on a 64 bit W32 API based system */
+#cmakedefine HAVE_W64_SYSTEM @HAVE_W64_SYSTEM@
+
+/* Name of package */
+#cmakedefine PACKAGE @PACKAGE@
+
+/* Define to the address where bug reports for this package should be sent. */
+#cmakedefine PACKAGE_BUGREPORT @PACKAGE_BUGREPORT@
+
+/* Define to the full name of this package. */
+#cmakedefine PACKAGE_NAME @PACKAGE_NAME@
+
+/* Define to the full name and version of this package. */
+#cmakedefine PACKAGE_STRING @PACKAGE_STRING@
+
+/* Define to the one symbol short name of this package. */
+#cmakedefine PACKAGE_TARNAME @PACKAGE_TARNAME@
+
+/* Define to the home page for this package. */
+#cmakedefine PACKAGE_URL @PACKAGE_URL@
+
+/* Define to the version of this package. */
+#cmakedefine PACKAGE_VERSION @PACKAGE_VERSION@
+
+/* Define to 1 if you have the ANSI C header files. */
+#cmakedefine STDC_HEADERS @STDC_HEADERS@
+
+/* Enable extensions on AIX 3, Interix.  */
+#ifndef _ALL_SOURCE
+# define _ALL_SOURCE 1
+#endif
+/* Enable GNU extensions on systems that have them.  */
+#ifndef _GNU_SOURCE
+# define _GNU_SOURCE 1
+#endif
+/* Enable threading extensions on Solaris.  */
+#ifndef _POSIX_PTHREAD_SEMANTICS
+# define _POSIX_PTHREAD_SEMANTICS 1
+#endif
+/* Enable extensions on HP NonStop.  */
+#ifndef _TANDEM_SOURCE
+# define _TANDEM_SOURCE 1
+#endif
+/* Enable general extensions on Solaris.  */
+#ifndef __EXTENSIONS__
+# define __EXTENSIONS__ 1
+#endif
+
+
+/* Version number of package */
+#cmakedefine VERSION @VERSION@
+
+/* Define to 1 if on MINIX. */
+#cmakedefine _MINIX @_MINIX@
+
+/* Define to 2 if the system does not provide POSIX.1 features except with
+   this defined. */
+#cmakedefine _POSIX_1_SOURCE @_POSIX_1_SOURCE@
+
+/* Define to 1 if you need to in order for `stat' and other things to work. */
+#cmakedefine _POSIX_SOURCE @_POSIX_SOURCE@
+
+#ifndef _REENTRANT
+# define _REENTRANT 1
+#endif
