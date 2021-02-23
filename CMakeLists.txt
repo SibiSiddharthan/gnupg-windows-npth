@@ -8,7 +8,7 @@
 
 cmake_minimum_required(VERSION 3.12)
 project(npth
-		VERSION 1.6
+		VERSION 1.6.0
 		LANGUAGES C)
 
 add_compile_definitions(HAVE_CONFIG_H)
@@ -21,7 +21,7 @@ set(PACKAGE_TARNAME \"${PROJECT_NAME}\")
 set(PACKAGE_URL \"\")
 set(PACKAGE_VERSION \"${PROJECT_VERSION}\")
 set(VERSION \"${PROJECT_VERSION}\")
-set(STDC_HEADERS 1)
+math(EXPR VERSION_HEX "(${PROJECT_VERSION_MAJOR} << 16) + (${PROJECT_VERSION_MINOR} << 8) + ${PROJECT_VERSION_PATCH}" OUTPUT_FORMAT HEXADECIMAL)
 
 include(UtilityFunctions)
 
